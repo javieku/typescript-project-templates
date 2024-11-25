@@ -1,0 +1,16 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "Basic project template to start a TS project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "author": "javieku",
+  "license": "ISC",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0"
+  }
+}
